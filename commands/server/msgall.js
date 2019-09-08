@@ -32,7 +32,7 @@ class msgallCommand extends commando.Command {
         .addField("📺 | Channel Executed", "-> " + message.channel)
         .addField("⏰ | Time", "-> " + message.createdAt)
         .setTimestamp()
-        .setFooter("FrostedHost Bot | created by hieu#0843")}));
+        .setFooter("FrostedHost Bot | created by FrostedHost")}));
     message.guild.members.forEach(member => {
         member.send({embed: new Discord.RichEmbed()
             .setTitle("**FrostedHost | Private Message**")
@@ -44,7 +44,7 @@ class msgallCommand extends commando.Command {
               .addField("🔑 | Executor", message.author.tag)
               .addField("💬 | MsgAll Message", message.content)
               .setTimestamp()
-              .setFooter("FrostedHost Bot | created by hieu#0843")});
+              .setFooter("FrostedHost Bot | created by FrostedHost")});
         });
   }
 }
