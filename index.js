@@ -22,7 +22,7 @@ bot.on('guildMemberAdd', (member) => {
     welcomechannel.send({embed: new Discord.RichEmbed()
         .setColor("#4286f4")
         .setTitle("**New Member**")
-        .setDescription(`:busts_in_silhouette: | **Greetings,** ${member}. Welcome to the **FrostedHost's Discord Server**.`)});
+        .setDescription(`:busts_in_silhouette: | **Greetings,** ${member}. Welcome to **FrostedHost's Discord Server**.`)});
 })
 
 bot.on('guildMemberRemove', (member) => {
