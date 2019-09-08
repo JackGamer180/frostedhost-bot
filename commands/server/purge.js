@@ -34,13 +34,13 @@ class purgeCommand extends commando.Command {
         .addField("📺 | Channel Executed", "-> " + message.channel)
         .addField("⏰ | Time", "-> " + message.createdAt)
         .setTimestamp()
-        .setFooter("FrostedHost Bot | created by hieu#0843")}));
+        .setFooter("FrostedHost Bot | created by frostedhost")}));
     channel.bulkDelete(numberofmessagesdeleted).then(messages => moderationlogs.send({embed: new Discord.RichEmbed()
         .setTitle("**FrostedHost | Purge**")
         .setColor("#4286f4")
         .addField("📌 | Executor", message.author.tag)
         .addField("#️⃣ | Number", message.size)
-        .setFooter("FrostedHost Bot | created by hieu#0843")}))    
+        .setFooter("FrostedHost Bot | created by frostedhost")}))    
   }
 }
 
