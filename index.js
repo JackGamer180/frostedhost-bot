@@ -22,7 +22,7 @@ bot.on('guildMemberAdd', (member) => {
     welcomechannel.send({embed: new Discord.RichEmbed()
         .setColor("#4286f4")
         .setTitle("**New Member**")
-        .setDescription(`:busts_in_silhouette: | **Greetings,** ${member}. Welcome to the **FrostedHost Discord Network**.`)});
+        .setDescription(`:busts_in_silhouette: | **Greetings,** ${member}. Welcome to the **FrostedHost's Discord Server**.`)});
 })
 
 bot.on('guildMemberRemove', (member) => {
@@ -30,6 +30,6 @@ bot.on('guildMemberRemove', (member) => {
     welcomechannel.send({embed: new Discord.RichEmbed()
         .setColor("#4286f4")
         .setTitle("**Leave Member**")
-        .setDescription(`:busts_in_silhouette: | **Goodbye,** ${member}. Thanks for being here in the **FrostedHost Discord Network**.`)});
+        .setDescription(`:busts_in_silhouette: | **Goodbye,** ${member}. Thanks for being here in the **FrostedHost Discord Server**.`)});
 })
 
