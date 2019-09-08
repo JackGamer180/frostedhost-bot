@@ -27,11 +27,11 @@ class infoCommand extends commando.Command {
     message.channel.send({embed: new Discord.RichEmbed()
     .setTitle("**FrostedHost | Information**")
     .setColor("#4286f4")
-    .addField("🔨 | Coder", "-> *hieu#0843*")
+    .addField("🔨 | Coder", "-> *FrostedHost team*")
     .addField("📚 | Library", "-> *discord.js*")
     .addField("⌛ | Uptime", "-> " + `${days} days, ${hours} hours, ${minutes} minutes, and ${seconds} seconds`)
     .setTimestamp()
-    .setFooter("FrostedHosted Bot | created by hieu#0843")
+    .setFooter("FrostedHosted Bot | created by FrostedHost")
     .setAuthor(message.author.tag)})
   }
 }
